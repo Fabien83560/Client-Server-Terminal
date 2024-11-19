@@ -1,15 +1,13 @@
-# R3.05 - Programmation Système
-## Projet - Application client/Serveur pour l'édition des fichiers texte en remote
+# R3.05 - System Programming  
+## Project - Client/Server Application for Remote Text File Editing  
 
+### Installation  
+To run the application, follow these steps:  
+1. Navigate to the project directory.  
+2. Execute the command `make`.  
+3. Open a terminal for the server and start it by running `./serveur_main`.  
+4. Open as many terminals as there are clients and start each client by running `./client_main` in its respective terminal.  
 
-### Installation
-Afin de lancer l'application, il faut :
-- Ce placer dans le répertoire du projet 
-- Lancer la commande "make"
-- Ouvrir un terminal pour le serveur et lancer le serveur en faisant ./serveur_main
-- Ouvrir autant de terminals qu'il y a de client et lancer dans chacun des terminals ./client_main
-
-### Informations
-Cette application a été réalisé par Fabien Ortega
-Avec l'utilisation de threads et de Mutex
-Tout cela dans un développement orienté objet
+### Information  
+This application was developed by Fabien Ortega.  
+It utilizes threads and mutexes, all implemented using an object-oriented development approach.  
